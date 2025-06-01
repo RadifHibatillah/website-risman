@@ -17,7 +17,7 @@
     <!-- ===================== CSS ============================ -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- ====================== CSS ============================ -->
-    <title>RISMAN - Remaja Masjid Nurul Hijrah</title>
+    <title>RISMAN - Remaja Jami Nurul Hijrah</title>
   </head>
   <body>
     <!-- ===================== HEADER ============================ -->
@@ -39,10 +39,10 @@
               <a href="#about" class="nav__link"> <i class="uil uil-user nav__icon"></i> Tentang </a>
             </li>
             <li class="nav__item">
-              <a href="#benefits" class="nav__link"><i class="uil uil-file-alt nav__icon"></i> Benefits </a>
+              <a href="#event" class="nav__link"><i class="uil uil-file-alt nav__icon"></i> Events </a>
             </li>
             <li class="nav__item">
-              <a href="#portofolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i> Portofolio </a>
+              <a href="#kolab" class="nav__link"><i class="uil uil-bag-alt"></i> Kolaborasi </a>
             </li>
             <li class="nav__item">
               <a href="#kontak" class="nav__link"> <i class="uil uil-message nav__icon"></i> Kontak </a>
@@ -73,12 +73,12 @@
   justify-content: center;
   color: white;
   position: relative;
-"> >
+"> 
         <div class="home__container container grid">
           <div class="home__content grid">
             <div class="home__data">
               <h1 class="home__title">Remaja Masjid Nurul Hijrah</h1>
-              <p class="home__subtitle">Pemuda hari ini adalah pemimpin esok hari</p>
+              <p class="home__subtitle">"Pemuda hari ini adalah pemimpin esok hari"</p>
               <!-- <p class="home__description">Anak muda kreatif, doyan ngoding, suka tantangan, hasil maksimal.</p> -->
             </div>
           </div>
@@ -96,94 +96,341 @@
       <!-- ====================== ABOUT ============================= -->
 
       <!-- ========================SKILLS============================= -->
-      <section class="benefits" id="benefits" style="
-  position: relative;
-  padding: 4rem 2rem;
-  background-image: url('assets/img/benefit.jpeg');
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  
-  color: white;
-  overflow: hidden;
-">
-  <div style="
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 255, 0.7);
-    z-index: 0;
-  "></div>
+      <!-- SECTION EVENT -->
+<section class="Event" id="event" style="position: relative; padding: 4rem 2rem; background-image: url('assets/img/benefit.jpeg'); background-size: cover; background-position: center; text-align: center; color: white; overflow: hidden;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 255, 0.7); z-index: 0;"></div>
 
-  <div style="position: relative; z-index: 1;">
-   <h2 class="sectionn__title">MANFAAT MENJADI ANGGOTA RISMAN</h2>
-  <div class="section__underline"></div>
-  <ul class="benefits__list">
-    <li><i class="fas fa-check-circle"></i>Menambah wawasan keislaman</li>
-    <li><i class="fas fa-check-circle"></i>Melatih kepemimpinan dan tanggung jawab</li>
-    <li><i class="fas fa-check-circle"></i>Meningkatkan kedisiplinan dan manajemen waktu</li>
-    <li><i class="fas fa-check-circle"></i>Mendapat teman yang positif dan satu visi</li>
-    <li><i class="fas fa-check-circle"></i>Terbiasa dalam kegiatan sosial dan dakwah</li>
-    <li><i class="fas fa-check-circle"></i>Menjadi panutan di lingkungan sekitar</li>
-    <li><i class="fas fa-check-circle"></i>Meningkatkan skill public speaking dan komunikasi</li>
-    <li><i class="fas fa-check-circle"></i>Menumbuhkan rasa peduli dan empati</li>
-    <li><i class="fas fa-check-circle"></i>Mendapat pengalaman organisasi</li>
-    <li><i class="fas fa-check-circle"></i>Menjaga diri dari pergaulan bebas</li>
-    <li><i class="fas fa-check-circle"></i>Belajar kerja tim dan gotong royong</li>
-    <li><i class="fas fa-check-circle"></i>Memperluas relasi dan jaringan komunitas positif</li>
-  </ul>
+  <sec style="position: relative; z-index: 1;">
+    <h2 class="sectionn__title">Our Events</h2>
+    <div class="section__underline"></div>
+
+    <!-- Card Container -->
+    <!-- Container Card -->
+<div class="card-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 2rem;">
+
+  <!-- Card 1 -->
+  <div class="event-card" onclick="showModal('event1')" style="background: white; color: black; border-radius: 10px; overflow: hidden; cursor: pointer; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+      <img src="assets/img/dokumentasi (1).jpeg" alt="Event 1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="padding: 1rem;">
+      <h3 style="margin: 0;">Isra Miraj</h3>
+      <p style="font-size: 0.9rem;">Klik untuk lihat detail</p>
+    </div>
   </div>
+
+  <!-- Card 2 -->
+  <div class="event-card" onclick="showModal('event2')" style="background: white; color: black; border-radius: 10px; overflow: hidden; cursor: pointer; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+      <img src="assets/img/dokumentasi (3).jpeg" alt="Event 2" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="padding: 1rem;">
+      <h3 style="margin: 0;">Berlian</h3>
+      <p style="font-size: 0.9rem;">Klik untuk lihat detail</p>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="event-card" onclick="showModal('event3')" style="background: white; color: black; border-radius: 10px; overflow: hidden; cursor: pointer; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+      <img src="assets/img/muharram.jpeg" alt="Event 3" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="padding: 1rem;">
+      <h3 style="margin: 0;">Muharram Fest</h3>
+      <p style="font-size: 0.9rem;">Klik untuk lihat detail</p>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="event-card" onclick="showModal('event4')" style="background: white; color: black; border-radius: 10px; overflow: hidden; cursor: pointer; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+      <img src="assets/img/maulid.jpeg" alt="Event 8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="padding: 1rem;">
+      <h3 style="margin: 0;">Maulid Nabi</h3>
+      <p style="font-size: 0.9rem;">Klik untuk lihat detail</p>
+    </div>
+  </div>
+
+</div>
 </section>
 
+<!-- MODAL -->
+<!-- Modal 1 -->
+<div id="modal-event1" class="modal " style="display: none; position: fixed; z-index: 100; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); justify-content: center; align-items: center;">
+  <div style="background: white; border-radius: 10px; padding: 1.5rem; width: 90%; max-width: 600px; position: relative;">
+    <span onclick="closeModal('event1')" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; cursor: pointer;">&times;</span>
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 10px; margin-bottom: 1rem;">
+      <img src="assets/img/dokumentasi (1).jpeg" alt="Event 1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <h3 class="">Isra Miraj</h3>
+    <p>
+Isra Miraj adalah peristiwa perjalanan Nabi Muhammad SAW ke langit untuk menerima perintah salat, menunjukkan kebesaran Allah dan keistimewaan Nabi sebagai utusan-Nya.</p>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div id="modal-event2" class="modal" style="display: none; position: fixed; z-index: 100; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); justify-content: center; align-items: center;">
+  <div style="background: white; border-radius: 10px; padding: 1.5rem; width: 90%; max-width: 600px; position: relative;">
+    <span onclick="closeModal('event2')" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; cursor: pointer;">&times;</span>
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 10px; margin-bottom: 1rem;">
+      <img src="assets/img/dokumentasi (3).jpeg" alt="Berlian" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <h3>BERLIAN</h3>
+    <p>Berlian adalah event spesial di bulan Ramadhan yang menghadirkan berbagai kegiatan seru, inspiratif, dan penuh makna untuk memperkuat iman, kebersamaan, serta semangat berbagi antar sesama.</p>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div id="modal-event3" class="modal" style="display: none; position: fixed; z-index: 100; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); justify-content: center; align-items: center;">
+  <div style="background: white; border-radius: 10px; padding: 1.5rem; width: 90%; max-width: 600px; position: relative;">
+    <span onclick="closeModal('event3')" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; cursor: pointer;">&times;</span>
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 10px; margin-bottom: 1rem;">
+      <img src="assets/img/muharram.jpeg" alt="Event 3" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <h3>Muharram Fest</h3>
+    <p>Muharram Fest adalah acara meriah yang menghadirkan pawai obor dan berbagai lomba seru. Momen ini menjadi ajang kebersamaan, semangat hijrah, dan mempererat tali silaturahmi antar sesama.</p>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div id="modal-event4" class="modal" style="display: none; position: fixed; z-index: 100; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); justify-content: center; align-items: center;">
+  <div style="background: white; border-radius: 10px; padding: 1.5rem; width: 90%; max-width: 600px; position: relative;">
+    <span onclick="closeModal('event4')" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; cursor: pointer;">&times;</span>
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 10px; margin-bottom: 1rem;">
+      <img src="assets/img/maulid.jpeg" alt="Event 4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <h3>Maulid Nabi</h3>
+    <p>Maulid Nabi adalah peringatan hari lahir Nabi Muhammad SAW yang dipenuhi dengan cinta, sholawat, dan keteladanan. Acara ini mengingatkan kita akan akhlak mulia Rasulullah sepanjang masa.</p>
+  </div>
+</div>
+
+
+
+
+<script>
+  function showModal(id) {
+    document.getElementById('modal-' + id).style.display = 'flex';
+  }
+  function closeModal(id) {
+    document.getElementById('modal-' + id).style.display = 'none';
+  }
+</script>
 
       <!-- ========================SKILLS============================= -->
+<section class="program" id="program" style="position: relative; padding: 4rem 2rem;background-position: center; text-align: center; color: black; overflow: hidden;">
+  
+  <sec style="position: relative; z-index: 1;">
+    <h2 class="sectionn__title" style="color: black;">Our Program</h2>
+    <div class="section__underline"></div>
 
-      
+    <!-- Card Container -->
+    <!-- Container Card -->
+<div class="card-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 2rem;">
 
-      <!-- ============================= PORTFOLIO ========================== -->
-      <section class="portfolio" id="portofolio">
-  <h2 class="portfolio__title">TUMBUH BERSAMA RISMAN</h2>
-  <div class="section__underline"></div>
-
-  <div class="portfolio__grid">
-    <div class="portfolio__item">
-      <img src="assets/img/dokumentasi (1).jpeg" alt="Kegiatan 1">
-      <h3 class="portfolio__caption">Maulid Nabi</h3>
-      <p class="portfolio__desc">Peringatan Maulid Nabi Muhammad SAW yang penuh makna.</p>
+  <!-- Card 1 -->
+  <div class="event-card" onclick="showModal('event1')" style="background: white; color: black; border-radius: 10px; overflow: hidden; cursor: pointer; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+      <img src="assets/img/dokumentasi (1).jpeg" alt="Event 1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
     </div>
-
-    <div class="portfolio__item">
-      <img src="assets/img/dokumentasi (4).jpeg" alt="Kegiatan 2">
-      <h3 class="portfolio__caption">Ngabuburit Ceria</h3>
-      <p class="portfolio__desc">Bukan sekadar organisasi, tapi momen seru bareng sahabat masjid!</p>
-    </div>
-
-    <div class="portfolio__item">
-      <img src="assets/img/dokumentasi (5).jpeg" alt="Kegiatan 3">
-      <h3 class="portfolio__caption">Takjil On The Road Ramadhan</h3>
-      <p class="portfolio__desc">Bagi-bagi takjil ke warga sekitar yang membutuhkan.</p>
-    </div>
-
-    <div class="portfolio__item">
-      <img src="assets/img/dokumentasi (3).jpeg" alt="Kegiatan 4">
-      <h3 class="portfolio__caption">BERLIAN</h3>
-      <p class="portfolio__desc">Pawai Obor, Lomba Ramadhan, dan Sanlat di bulan Ramadhan. </p>
-    </div>
-
-    <div class="portfolio__item">
-      <img src="assets/img/dokumentasi (2).jpeg" alt="Kegiatan 5">
-      <h3 class="portfolio__caption">Pelatihan MC & Public Speaking</h3>
-      <p class="portfolio__desc">Latihan jadi MC dan pembicara yang percaya diri di depan umum.</p>
-    </div>
-
-    <div class="portfolio__item">
-      <img src="assets/img/dokumentasi (6).jpeg" alt="Kegiatan 6">
-      <h3 class="portfolio__caption">Kolaborasi</h3>
-      <p class="portfolio__desc">Nggak cuma rame, tapi juga bermanfaat.</p>
+    <div style="padding: 1rem;">
+      <h3 style="margin: 0;">Isra Miraj</h3>
+      <p style="font-size: 0.9rem;">Klik untuk lihat detail</p>
     </div>
   </div>
+
+  <!-- Card 2 -->
+  <div class="event-card" onclick="showModal('event6')" style="background: white; color: black; border-radius: 10px; overflow: hidden; cursor: pointer; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+      <img src="assets/img/pha.jpg" alt="Event 2" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="padding: 1rem;">
+      <h3 style="margin: 0;">Pembacaan Hadist Arbain</h3>
+      <p style="font-size: 0.9rem;">Klik untuk lihat detail</p>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="event-card" onclick="showModal('event7')" style="background: white; color: black; border-radius: 10px; overflow: hidden; cursor: pointer; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+      <img src="assets/img/dokumentasi (2).jpeg" alt="Event 3" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="padding: 1rem;">
+      <h3 style="margin: 0;">Muhadhorroh</h3>
+      <p style="font-size: 0.9rem;">Klik untuk lihat detail</p>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="event-card" onclick="showModal('event8')" style="background: white; color: black; border-radius: 10px; overflow: hidden; cursor: pointer; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+      <img src="assets/img/dokumentasi (4).jpeg" alt="Event 4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="padding: 1rem;">
+      <h3 style="margin: 0;">Olahraga</h3>
+      <p style="font-size: 0.9rem;">Klik untuk lihat detail</p>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="event-card" onclick="showModal('event9')" style="background: white; color: black; border-radius: 10px; overflow: hidden; cursor: pointer; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+      <img src="assets/img/dokumentasi (5).jpeg" alt="Event 9" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="padding: 1rem;">
+      <h3 style="margin: 0;">Bagi-bagi Takjil</h3>
+      <p style="font-size: 0.9rem;">Klik untuk lihat detail</p>
+    </div>
+  </div>
+
+   <!-- Card 6 -->
+  <div class="event-card" onclick="showModal('event10')" style="background: white; color: black; border-radius: 10px; overflow: hidden; cursor: pointer; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+      <img src="assets/img/studi.jpeg" alt="Event 4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="padding: 1rem;">
+      <h3 style="margin: 0;">Studi Banding</h3>
+      <p style="font-size: 0.9rem;">Klik untuk lihat detail</p>
+    </div>
+  </div>
+
+</div>
 </section>
+
+<!-- MODAL -->
+<!-- Modal 1 -->
+<div id="modal-event1" class="modal" style="display: none; position: fixed; z-index: 100; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); justify-content: center; align-items: center;">
+  <div style="background: white; border-radius: 10px; padding: 1.5rem; width: 90%; max-width: 600px; position: relative;">
+    <span onclick="closeModal('event1')" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; cursor: pointer;">&times;</span>
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 10px; margin-bottom: 1rem;">
+      <img src="assets/img/dokumentasi (1).jpeg" alt="Event 1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <h3>Isra Miraj</h3>
+    <p>
+Isra Miraj adalah peristiwa perjalanan Nabi Muhammad SAW ke langit untuk menerima perintah salat, menunjukkan kebesaran Allah dan keistimewaan Nabi sebagai utusan-Nya.</p>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div id="modal-event6" class="modal" style="display: none; position: fixed; z-index: 100; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); justify-content: center; align-items: center;">
+  <div style="background: white; border-radius: 10px; padding: 1.5rem; width: 90%; max-width: 600px; position: relative;">
+    <span onclick="closeModal('event6')" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; cursor: pointer;">&times;</span>
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 10px; margin-bottom: 1rem;">
+      <img src="assets/img/pha.jpg" alt="Berlian" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <h3>Pembacaan Hadist Arbain</h3>
+    <p>Kegiatan penuh hikmah bersama jamaah, membaca dan memahami Hadist Arbain Nawawi. Menghidupkan sunnah, menambah ilmu, serta memperkuat keimanan lewat pesan-pesan Rasulullah yang penuh makna.</p>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div id="modal-event7" class="modal" style="display: none; position: fixed; z-index: 100; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); justify-content: center; align-items: center;">
+  <div style="background: white; border-radius: 10px; padding: 1.5rem; width: 90%; max-width: 600px; position: relative;">
+    <span onclick="closeModal('event7')" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; cursor: pointer;">&times;</span>
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 10px; margin-bottom: 1rem;">
+      <img src="assets/img/dokumentasi (2).jpeg" alt="Event 3" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <h3>Muhadhorroh</h3>
+    <p>Kegiatan muhadhoroh melatih keterampilan berbicara di depan umum, menumbuhkan rasa percaya diri, dan meningkatkan kemampuan retorika anggota melalui pidato, ceramah, atau presentasi dalam suasana formal namun santai.</p>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div id="modal-event8" class="modal" style="display: none; position: fixed; z-index: 100; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); justify-content: center; align-items: center;">
+  <div style="background: white; border-radius: 10px; padding: 1.5rem; width: 90%; max-width: 600px; position: relative;">
+    <span onclick="closeModal('event8')" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; cursor: pointer;">&times;</span>
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 10px; margin-bottom: 1rem;">
+      <img src="assets/img/dokumentasi (4).jpeg" alt="Event 8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <h3>Olahraga</h3>
+    <p>Program olahraga Risman bertujuan meningkatkan kebugaran jasmani, mempererat hubungan antar anggota, serta membentuk karakter disiplin dan semangat sportivitas melalui kegiatan rutin yang menyenangkan dan menyehatkan.</p>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div id="modal-event9" class="modal" style="display: none; position: fixed; z-index: 100; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); justify-content: center; align-items: center;">
+  <div style="background: white; border-radius: 10px; padding: 1.5rem; width: 90%; max-width: 600px; position: relative;">
+    <span onclick="closeModal('event9')" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; cursor: pointer;">&times;</span>
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 10px; margin-bottom: 1rem;">
+      <img src="assets/img/dokumentasi (5).jpeg" alt="Event 6" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <h3>Bagi-bagi Takjil</h3>
+    <p>Kegiatan bagi-bagi takjil dilakukan untuk membantu sesama yang sedang berpuasa, menebar kebaikan, mempererat kebersamaan, dan melatih kepedulian sosial.</p>
+  </div>
+</div>
+
+<!-- Modal 6 -->
+<div id="modal-event10" class="modal" style="display: none; position: fixed; z-index: 100; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); justify-content: center; align-items: center;">
+  <div style="background: white; border-radius: 10px; padding: 1.5rem; width: 90%; max-width: 600px; position: relative;">
+    <span onclick="closeModal('event10')" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; cursor: pointer;">&times;</span>
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 10px; margin-bottom: 1rem;">
+      <img src="assets/img/studi.jpeg" alt="Event 4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <h3>Studi Banding</h3>
+    <p>Studi banding adalah kegiatan kunjungan yang bertujuan menjalin kolaborasi, bertukar ide, dan mempelajari program unggulan pihak lain untuk meningkatkan kualitas dan inovasi organisasi atau komunitas sendiri.</p>
+  </div>
+</div>
+      
+<script>
+  function showModal(id) {
+    const modal = document.getElementById(`modal-${id}`);
+    modal.style.display = 'flex';
+    setTimeout(() => {
+      modal.classList.add('show');
+    }, 10);
+  }
+
+  function closeModal(id) {
+    const modal = document.getElementById(`modal-${id}`);
+    modal.classList.remove('show');
+    setTimeout(() => {
+      modal.style.display = 'none';
+    }, 400);
+  }
+</script>
+
+      
+      <!-- ============================= PORTFOLIO ========================== -->
+    <section id="kolab">
+  <h2 style="align-items: center!important;">Kolaborasi</h2>
+  <div class="section__underline"></div>
+  <div class="kolab-grid">
+    <div class="kolab-card" data-title="ramda">
+      <img src="assets/img/dokumentasi (6).jpeg" alt="ramda" />
+      <div class="kolab-info">
+        <h3>RISMAN X RAMDA</h3>
+        <p>Kolaborasi seru bareng Ramda buat bikin organisasi masjid lebih keren!</p>
+      </div>
+    </div>
+
+    <div class="kolab-card" data-title="cukur" data-desc="Memanfaatkan teknologi untuk meningkatkan efektivitas dan jangkauan kerja sama." data-img="https://via.placeholder.com/600x400?text=Kolaborasi+Digital">
+      <img src="assets/img/cukur.jpg" a
+    lt="cukur" />
+      <div class="kolab-info">
+        <h3>RISMAN X BARBERKAH2022</h3>
+        <p>Barberkah hadir bareng kita, nyediain cukur gratis buat warga sekitar</p>
+      </div>
+    </div>
+
+    <div class="kolab-card" data-title="pertamina" data-desc="Bersama membangun komunitas yang peduli dan saling mendukung satu sama lain." data-img="https://via.placeholder.com/600x400?text=Kolaborasi+Sosial">
+      <img src="assets/img/pertamina.jpeg" alt="pertamina" />
+      <div class="kolab-info">
+        <h3>RISMAN X PERTAMINA</h3>
+        <p>Kolaborasi bareng Pertamina, berbagi santunan buat anak yatim.</p>
+      </div>
+    </div>
+
+    <div class="kolab-card" data-title="Kolaborasi Inovasi" data-desc="Menyatukan pikiran kreatif untuk menemukan solusi baru yang menantang batas." data-img="https://via.placeholder.com/600x400?text=Kolaborasi+Inovasi">
+      <img src="https://via.placeholder.com/400x250?text=Inovasi" alt="Kolaborasi Inovasi" />
+      <div class="kolab-info">
+        <h3>RISMAN X HI, MPOK!</h3>
+        <p>Hi, Mpok! hadir sebagai tempat berkumpulnya muslimah aktif dan peduli sesama.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Overlay modal -->
+ 
       <!-- ============================== KONTAK ================================================ -->
       <section class="contact-section" id="kontak">
   <div class="contact-title">
